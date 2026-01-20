@@ -1,6 +1,6 @@
 context:
   name: control
-  version: "4.2.0"
+  version: "4.2.1"
 
 package:
   name: octave-${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/gnu-octave/pkg-control/releases/download/control-${{ version }}/control-${{ version }}.tar.gz
-  sha256: 22265e2fa2b6e84d81a4aa5294ef4d37b4e96eb456e4223055c394a2746a28fa
+  sha256: abd13286b717c71b420591201255be9c295b77731f94c5eb591cb7d488f5f247
   target_directory: ${{ name }}
 
 build:
